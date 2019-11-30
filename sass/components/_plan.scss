@@ -1,0 +1,53 @@
+.plan {
+
+    &__item {
+        background-color: $secondary-dark;
+        border-radius: 4px;
+        height: 45rem;
+        transition: all .2s;
+
+        &:hover {
+            background-color: $secondary-light;
+            transform: scale(1.03);
+        }
+    }
+
+    &__price {
+        font-size: 5rem;
+        font-weight: 300;
+        color: $white;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        &-span {
+            font-size: 3rem;
+        }
+    }
+
+    &__desc-box {
+        //margin-left: 4rem;
+    }
+
+    &__list {
+        
+
+        &-item {
+            list-style-type: none;
+            color: $white;
+            font-weight: 100;
+            line-height: 3.5rem;
+            text-align: center;
+
+        }
+    }
+
+    &__button-box {
+        margin-top: 4rem;
+    }
+
+
+
+
+
+}

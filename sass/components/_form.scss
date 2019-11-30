@@ -1,0 +1,47 @@
+.form {
+
+    &__group {
+        background-color: $secondary-dark;
+        height: 40rem;
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 8rem;
+        border-radius: 4px;
+        
+        &-items {
+            margin-top: 2rem;
+        }
+
+        &-btn {
+            margin-left: 14rem;
+        }
+    }
+
+    &__input {
+        outline: none;
+        display: block;
+        border-radius: 50px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3rem;
+        padding: 1rem 2rem;
+
+        &::placeholder {
+            text-align: center;
+        }
+    }
+
+    &__btn {
+        font-family: inherit;
+        padding: 1rem 1rem;
+        font-size: 2rem;
+        font-weight: 300;
+        background-color: $white;
+        border-radius: 50px;
+
+        margin-top: 5rem;
+
+    }
+
+
+}

@@ -1,0 +1,38 @@
+.section-about {
+    margin-bottom: 2rem;
+
+    &__img {
+        width: 100%;
+        height: 50%;
+        margin: 8rem 5rem;
+    }
+}
+
+.section-features {
+    background-image: url(../../img/gym-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: $white;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+
+}
+
+.section-stories {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.section-plans {
+    background-image: url(../../img/gym-4.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.section-form {
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+}

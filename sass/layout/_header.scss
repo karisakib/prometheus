@@ -1,0 +1,47 @@
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to right bottom,
+            rgba($primary-light, 0.7),
+            rgba($primary-dark, 0.7)),
+        url(../../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+
+        &-top {
+            display: block;
+            font-size: 3rem;
+            font-weight: 300;
+            line-height: 1rem;
+            letter-spacing: 1.5px;
+            color: $white;
+            opacity: 0.5;
+
+        }
+
+        &-bottom {
+            font-size: 3rem;
+            font-weight: 300;
+            letter-spacing: 2.5px;
+            color: $white;
+            opacity: 0.5;
+        }
+    }
+
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+}
