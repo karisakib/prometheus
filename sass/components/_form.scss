@@ -1,33 +1,41 @@
 .form {
 
     &__group {
-        background-color: $secondary-dark;
+    
         height: 40rem;
-        width: 40%;
-        margin-left: 30%;
+        width: 60rem;
+        margin-left: 30rem;
         margin-top: 8rem;
         border-radius: 4px;
+        box-shadow: 15px 15px 50px $shadow;
         
+
         &-items {
             margin-top: 2rem;
         }
 
         &-btn {
-            margin-left: 14rem;
+            margin-left: 20rem;
+            
         }
     }
 
+
     &__input {
+        background-color: $secondary-dark;
+        color: $white;
         outline: none;
         display: block;
-        border-radius: 50px;
-        width: 80%;
-        margin-left: 10%;
+        border-radius: 5px;
+        border: none;
+        width: 30rem;
+        margin-left: 15rem;
         margin-top: 3rem;
-        padding: 1rem 2rem;
+        padding: 2rem 3rem;
 
         &::placeholder {
-            text-align: center;
+            // text-align: center;
+            color: $white;
         }
     }
 
@@ -39,9 +47,9 @@
         background-color: $white;
         border-radius: 50px;
 
+        border: 1px solid crimson;
         margin-top: 5rem;
 
     }
-
 
 }

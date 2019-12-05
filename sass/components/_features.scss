@@ -2,7 +2,7 @@
 
     &__items-box {
         background-color: rgba($color: #fff, $alpha: 0.8);
-        
+        box-shadow: 15px 15px 5px $shadow;
         border-radius: 3px;
         transition: all .2s;
 
